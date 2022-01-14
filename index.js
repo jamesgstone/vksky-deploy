@@ -24,4 +24,4 @@ app.use('/admin', require('./routes/admin'))
 app.use(express.static('build'))
 
 // run
-app.listen(80, () => console.log("J.A.R.V.I.S up and running on port 80 🎆"))
+app.listen(8080, () => console.log("J.A.R.V.I.S up and running on port 8080 🎆"))
